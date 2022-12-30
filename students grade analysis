@@ -1,0 +1,13 @@
+a=int(input("enter the mark obtained :"))
+if a>90 and a<=100:
+    print("the grade obtained is o")
+elif a>80 and a<=90:
+    print("the grade obtained is A+")
+elif a>70 and a<=80:
+    print("the grade obtained is A")
+elif a>60 and a<=70:
+    print("the grade obtained is B+")
+elif a>50 and a<=60:
+    print("the grade obtained is B")
+else:
+    print("the grade obtained is U")
