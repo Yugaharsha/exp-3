@@ -1,0 +1,10 @@
+n=input("enter the character:")
+if(n.isalpha()):
+    print("the character is alphabet")
+elif(n.isnumeric()):
+    print("the character ir number")
+elif(n.isspace()):
+    print("the character is space")
+else:
+    print("the character is special character")
+
