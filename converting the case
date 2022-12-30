@@ -1,0 +1,7 @@
+c=input("enter the character")
+if(c.islower()):
+    print(c.upper())
+elif(c.isupper()):
+    print(c.lower())
+else:
+    print(s)
