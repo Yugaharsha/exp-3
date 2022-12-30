@@ -1,0 +1,9 @@
+s=int(input("enter salary"))
+if s>10000:
+    newsalary=s+s*10/100
+    print(newsalary,"you have 10%+bonus")
+elif s<10000:
+    newsalary=s+s*12/100
+    print(newsalary,"you have 12%+bonus")
+else:
+    print("no bonus",s)
